@@ -1,12 +1,12 @@
 # Your code here
 
-
+result = []
 
 def finder(files, queries):
-    """
-    YOUR CODE HERE
-    """
-    # Your code here
+    for querie in queries:
+        for path in files:
+            if querie in path:
+                result.append(path)
 
     return result
 

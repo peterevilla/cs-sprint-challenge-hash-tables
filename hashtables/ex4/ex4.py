@@ -1,8 +1,12 @@
 def has_negatives(a):
-    """
-    YOUR CODE HERE
-    """
-    # Your code here
+   
+    dictionary = {}  # a hashtable to store values
+    result = []
+    for num in a:
+        if abs(num) in dictionary:
+            result.append(abs(num))
+        else:
+            dictionary[abs(num)] = abs(num)
 
     return result
 
