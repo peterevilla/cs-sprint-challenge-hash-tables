@@ -1,8 +1,15 @@
 def intersection(arrays):
-    """
-    YOUR CODE HERE
-    """
-    # Your code here
+    dictionary = {}
+    result = []
+    for array in arrays:
+        for i in array:
+            if i in dictionary:
+                if i in result:
+                    pass
+                else:
+                    result.append(i)
+            else:
+                dictionary[i] = i
 
     return result
 

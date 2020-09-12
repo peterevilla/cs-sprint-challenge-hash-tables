@@ -23,8 +23,11 @@ Commit your code regularly and meaningfully. This practice helps both you (in ca
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your answers beforehand.
 
 1. Hashing functions
+ A function that recieve a value and returns a compressed numerical value. A hashing fuction has to be deterministic
 2. Collision resolution
+    A method to avoid collision of values that return a hashing function, when a table has a certain length
 3. Performance of basic hash table operations
+    A hash Table best case should have a O(1) time complexity.
 4. Load factor
 5. Automatic resizing
 6. Various use cases for hash tables
